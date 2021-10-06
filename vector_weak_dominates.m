@@ -6,8 +6,8 @@ function dominates = vector_weak_dominates(a,b)
 %
 % INPUTS
 %
-% a = a vector (1 by K) of objective values
-% b = a vector (1 by K) of objective values
+% a = a vector (1 by M) of objective values
+% b = a vector (1 by M) of objective values
 %
 % OUTPUT
 %
@@ -20,7 +20,7 @@ function dominates = vector_weak_dominates(a,b)
 
 check_vectors_same_size(a,b);
 
-dominates = sum(a<=b) == length(a);
+dominates = (sum(a<=b) == length(a));
 
 end
 

@@ -6,8 +6,8 @@ function dominates = vector_dominates(a,b)
 %
 % INPUTS
 %
-% a = a vector (1 by K) of objective values
-% b = a vector (1 by K) of objective values
+% a = a vector (1 by M) of objective values
+% b = a vector (1 by M) of objective values
 %
 % OUTPUT
 %
