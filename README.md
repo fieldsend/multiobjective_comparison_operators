@@ -1,5 +1,5 @@
 # multiobjective_comparison_operators
-A suite of small matlab functions covering some common multi-objective comparison operators, namely:
+A suite of small matlab functions covering some common multi-objective comparison operators, aligning to COMM510 workshop 1, plus a few more. Namely:
 
 * Checking if one objective vector dominates another
 * Checking if one objective vector weakly-dominates another
