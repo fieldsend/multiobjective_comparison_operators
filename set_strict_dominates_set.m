@@ -16,7 +16,7 @@ function strict_dominates = set_strict_dominates_set(A,B)
 % Returns false otherwise.
 %
 % Jonathan Fieldsend, University of Exeter, 2021
-
+[K,~] = size(B);
 strict_dominates = true;
 for i=1:K
     if set_strict_dominates_vector(A,B(i,:)) == false
